@@ -63,9 +63,9 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     selectedDay: {
-      width: 30*scaler,
-      height:30*scaler,
-      borderRadius: 30*scaler,
+      width: 40*scaler,
+      height:40*scaler,
+      borderRadius: 40*scaler,
       alignSelf: 'center',
       justifyContent: 'center'
     },
