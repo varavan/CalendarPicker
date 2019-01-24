@@ -30,6 +30,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
       fontSize: 14*scaler,
       color: '#000',
       alignSelf: 'center'
+      // fontFamily: '',
     },
 
     selectedDayLabel: {
@@ -37,12 +38,13 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     dayLabelsWrapper: {
-      flexDirection: 'row',
+      flexDirection: 'column',
       borderBottomWidth: 0,
       borderTopWidth: 0,
       paddingTop: 10*scaler,
       paddingBottom: 10*scaler,
       alignSelf: 'center',
+      alignItems: 'center',
       justifyContent: 'center',
       backgroundColor: 'rgba(0,0,0,0.0)',
       borderColor: 'rgba(0,0,0,0.2)'
@@ -55,8 +57,8 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
 
     dayLabels: {
       width: 50*scaler,
-      fontSize: 12*scaler,
-      color: '#000',
+      fontSize: 10*scaler,
+      color: '#d7d7d7',
       textAlign: 'center'
     },
 
@@ -119,7 +121,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
 
     monthLabel: {
       fontSize: 16*scaler,
-      color: '#000',
+      color: '#008A94',
       marginBottom: 10*scaler,
       width: 180*scaler,
       textAlign: 'center'
@@ -164,8 +166,8 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     disabledText: {
-      fontSize: 14*scaler,
-      color: '#BBBBBB',
+      fontSize: 18*scaler,
+      color: '#d7d7d7',
       alignSelf: 'center',
       justifyContent: 'center'
     }
