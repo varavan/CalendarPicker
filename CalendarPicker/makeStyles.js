@@ -27,6 +27,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     dayLabel: {
+      marginTop: 3,
       fontSize: 14*scaler,
       color: '#000',
       alignSelf: 'center'
@@ -57,7 +58,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     dayLabels: {
       width: 50*scaler,
       fontSize: 10*scaler,
-      color: '#d7d7d7',
+      color: '#707070',
       textAlign: 'center'
     },
 
@@ -166,7 +167,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
 
     disabledText: {
       fontSize: 18*scaler,
-      color: '#707070',
+      color: '#d7d7d7',
       alignSelf: 'center',
       justifyContent: 'center'
     }
