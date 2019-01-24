@@ -130,6 +130,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
 
     headerWrapper: {
       alignItems: 'center',
+      justifyContent: 'space-between',
       flexDirection: 'row',
       alignSelf: 'center',
       padding: 5*scaler,

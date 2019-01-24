@@ -36,6 +36,7 @@ export default function HeaderControls(props) {
       >
         <Image
           source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowLeft.png'}}
+          style={{ width: 24, height: 24 }}
         />
       </TouchableOpacity>
       <View>
@@ -48,6 +49,7 @@ export default function HeaderControls(props) {
       >
         <Image
           source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowRight.png'}}
+          style={{ width: 24, height: 24 }}
         />
       </TouchableOpacity>
     </View>
