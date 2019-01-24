@@ -29,14 +29,10 @@ export default function HeaderControls(props) {
   const month = MONTHS[currentMonth];
   const year = currentYear;
 
-  const now = new Date();
-  const nYear = now.getFullYear();
-  const mMonth = now.getMonth();
+
 
   return (
     <View style={styles.headerWrapper}>
-      { (month > mMonth && year >= nYear) 
-      ? (
         <TouchableOpacity
           onPress={onPressPrevious}
         >
@@ -45,7 +41,6 @@ export default function HeaderControls(props) {
             style={{ width: 24, height: 24 }}
           />
         </TouchableOpacity>
-        ) : (null) }
       
       <View>
         <Text style={[styles.monthLabel, textStyle]}>
