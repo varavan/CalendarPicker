@@ -38,13 +38,12 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     dayLabelsWrapper: {
-      flexDirection: 'column',
+      flexDirection: 'row',
       borderBottomWidth: 0,
       borderTopWidth: 0,
       paddingTop: 10*scaler,
       paddingBottom: 10*scaler,
       alignSelf: 'center',
-      alignItems: 'center',
       justifyContent: 'center',
       backgroundColor: 'rgba(0,0,0,0.0)',
       borderColor: 'rgba(0,0,0,0.2)'
