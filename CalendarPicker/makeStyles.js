@@ -19,15 +19,15 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     dayButton: {
-      width: 40*scaler,
-      height: 40*scaler,
-      borderRadius: 40*scaler,
+      width: 35*scaler,
+      height: 35*scaler,
+      borderRadius: 35*scaler,
       alignSelf: 'center',
       justifyContent: 'center'
     },
 
     dayLabel: {
-      marginTop: 6,
+      marginTop: 4,
       fontSize: 14*scaler,
       color: '#000',
       alignSelf: 'center'
@@ -75,11 +75,11 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     selectedToday: {
-      width: 40*scaler,
-      height:40*scaler,
+      width: 35*scaler,
+      height:35*scaler,
       borderWidth: 2,
       borderColor: '#008A94',
-      borderRadius: 40*scaler,
+      borderRadius: 35*scaler,
       alignSelf: 'center',
       justifyContent: 'center'
     },
