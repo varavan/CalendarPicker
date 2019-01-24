@@ -5,7 +5,7 @@
  * Licensed under the terms of the MIT license. See LICENSE file in the project root for terms.
  */
 const DEFAULT_SELECTED_BACKGROUND_COLOR = '#5ce600';
-const DEFAULT_SELECTED_TEXT_COLOR = '#000000';
+const DEFAULT_SELECTED_TEXT_COLOR = '#0b2117';
 const DEFAULT_TODAY_BACKGROUD_COLOR = '#CCCCCC';
 
 export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundColor) {
