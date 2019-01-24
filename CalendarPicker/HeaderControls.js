@@ -37,8 +37,8 @@ export default function HeaderControls(props) {
           onPress={onPressPrevious}
         >
           <Image
-            source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowLeft.png'}}
-            style={{ width: 24, height: 24, marginBottom: 10 }}
+            source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowLeft@3x.png'}}
+            style={{ width: 24, height: 24, marginBottom: 15 }}
           />
         </TouchableOpacity>
       
@@ -51,8 +51,8 @@ export default function HeaderControls(props) {
         onPress={onPressNext}
       >
         <Image
-          source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowRight.png'}}
-          style={{ width: 24, height: 24, marginBottom: 10 }}
+          source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowRight@3x.png'}}
+          style={{ width: 24, height: 24, marginBottom: 17 }}
         />
       </TouchableOpacity>
     </View>
