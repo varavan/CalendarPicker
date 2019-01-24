@@ -35,6 +35,7 @@ export default function HeaderControls(props) {
     <View style={styles.headerWrapper}>
         <TouchableOpacity
           onPress={onPressPrevious}
+          style={{height'100%', justifyContent: 'center', flexDirection: 'column'}}
         >
           <Image
             source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowLeft.png'}}
@@ -49,6 +50,7 @@ export default function HeaderControls(props) {
       </View>
       <TouchableOpacity
         onPress={onPressNext}
+        style={{height'100%', justifyContent: 'center', flexDirection: 'column'}}
       >
         <Image
           source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowRight.png'}}
