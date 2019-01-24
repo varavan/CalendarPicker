@@ -29,16 +29,24 @@ export default function HeaderControls(props) {
   const month = MONTHS[currentMonth];
   const year = currentYear;
 
+  const now = new Date();
+  const nYear = now.getFullYear();
+  const mMonth = now.getMonth();
+
   return (
     <View style={styles.headerWrapper}>
-      <TouchableOpacity
-        onPress={onPressPrevious}
-      >
-        <Image
-          source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowLeft.png'}}
-          style={{ width: 24, height: 24 }}
-        />
-      </TouchableOpacity>
+      { (month > mMonth && year >= nYear) 
+      ? (
+        <TouchableOpacity
+          onPress={onPressPrevious}
+        >
+          <Image
+            source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowLeft.png'}}
+            style={{ width: 24, height: 24 }}
+          />
+        </TouchableOpacity>
+        ) : (null) }
+      
       <View>
         <Text style={[styles.monthLabel, textStyle]}>
            { month } { year }

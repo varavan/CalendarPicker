@@ -129,6 +129,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     headerWrapper: {
+      width: '100%',
       alignItems: 'center',
       justifyContent: 'space-between',
       flexDirection: 'row',
