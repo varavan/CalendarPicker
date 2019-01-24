@@ -29,23 +29,25 @@ export default function HeaderControls(props) {
 
   return (
     <View style={styles.headerWrapper}>
-      <Controls
-        label={previous}
-        onPressControl={onPressPrevious}
-        styles={[styles.monthSelector, styles.prev]}
-        textStyles={textStyle}
-      />
+      <TouchableOpacity
+        onPress={onPressPrevious}
+      >
+        <Image
+          source={require('../../assets/icArrowLeft.png')}
+        />
+      </TouchableOpacity>
       <View>
         <Text style={[styles.monthLabel, textStyle]}>
            { month } { year }
         </Text>
       </View>
-      <Controls
-        label={next}
-        onPressControl={onPressNext}
-        styles={[styles.monthSelector, styles.next]}
-        textStyles={textStyle}
-      />
+      <TouchableOpacity
+        onPress={onPressNext}
+      >
+        <Image
+          source={require('../../assets/icArrowRight.png')}
+        />
+      </TouchableOpacity>
     </View>
   );
 }
