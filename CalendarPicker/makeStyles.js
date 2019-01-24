@@ -19,9 +19,9 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     dayButton: {
-      width: 30*scaler,
-      height: 30*scaler,
-      borderRadius: 30*scaler,
+      width: 40*scaler,
+      height: 40*scaler,
+      borderRadius: 40*scaler,
       alignSelf: 'center',
       justifyContent: 'center'
     },
@@ -166,7 +166,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
 
     disabledText: {
       fontSize: 18*scaler,
-      color: '#d7d7d7',
+      color: '#707070',
       alignSelf: 'center',
       justifyContent: 'center'
     }
