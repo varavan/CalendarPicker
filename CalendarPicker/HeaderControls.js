@@ -33,7 +33,7 @@ export default function HeaderControls(props) {
         onPress={onPressPrevious}
       >
         <Image
-          source={require('../../assets/icArrowLeft.png')}
+          source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowLeft.png'}}
         />
       </TouchableOpacity>
       <View>
@@ -45,7 +45,7 @@ export default function HeaderControls(props) {
         onPress={onPressNext}
       >
         <Image
-          source={require('../../assets/icArrowRight.png')}
+          source={{uri: 'http://d14ytx3y0vrgcc.cloudfront.net/icArrowRight.png'}}
         />
       </TouchableOpacity>
     </View>
